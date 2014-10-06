@@ -1,4 +1,5 @@
 # Fakerest
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/karthik-krishnan/fakerest?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Fakerest is a simple tool based on sinatra which starts a http server (webrick) and exposes restful services based on the configuration specified in a YAML format.
 
