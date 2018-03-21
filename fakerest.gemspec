@@ -5,7 +5,7 @@ require 'fakerest/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fakerest"
-  spec.version       = BoilerPlate::VERSION
+  spec.version       = Fakerest::VERSION
   spec.authors       = ["Karthik Krishnan"]
   spec.email         = ["me@karthiks.in"]
 
