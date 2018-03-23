@@ -32,6 +32,10 @@ module FakeRest
         next if key == 'file' or key == 'splat' or key == 'captures'
         request_body += value != nil ? (key + "=" + value + ",") : (key + ",")
       end
+
+      if request.env['CONTENT_TYPE'] == "application/json"
+        params[:body] = JSON.parse(request_body)
+      end
      
       request_body = request.body.read
       request_body
